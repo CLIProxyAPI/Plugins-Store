@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "plugins": [
+    {
+      "id": "cpa-codex-controls",
+      "name": "CPA Policy",
+      "description": "Codex 账号并发限制、等待队列、请求时区覆盖、错误事件与插件日志。",
+      "author": "CLIProxyAPI (custom fork of Hao Wang)",
+      "version": "1.4.2-timezone.14",
+      "repository": "https://github.com/CLIProxyAPI/cpa-policy",
+      "license": "MIT; includes Apache-2.0 adaptations",
+      "tags": [
+        "codex",
+        "concurrency",
+        "timezone"
+      ],
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.2-timezone.14/cpa-codex-controls_1.4.2-timezone.14_linux_amd64.zip",
+            "sha256": "d11beef82983282f1f6eacaf307155b326b414a9dc781efa35f4c39b0c194f23",
+            "size": 6031986
+          },
+          {
+            "goos": "linux",
+            "goarch": "arm64",
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.2-timezone.14/cpa-codex-controls_1.4.2-timezone.14_linux_arm64.zip",
+            "sha256": "147e4ce8103a643a96963d45a6c74f65bedf6da7b9e08a6b5c2a80b7fc346566",
+            "size": 5688152
+          },
+          {
+            "goos": "darwin",
+            "goarch": "arm64",
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.2-timezone.14/cpa-codex-controls_1.4.2-timezone.14_darwin_arm64.zip",
+            "sha256": "39facbea5709600b923f7d055bab3a5f10c8597face8f2547c8834d58a863f40",
+            "size": 3735399
+          }
+        ]
+      }
+    }
+  ]
+}

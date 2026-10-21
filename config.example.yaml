@@ -3,7 +3,7 @@ plugins:
   enabled: true
   dir: plugins
   store-sources:
-    - https://raw.githubusercontent.com/YOUR_ACCOUNT/YOUR_REPO/main/registry.json
+    - https://raw.githubusercontent.com/CLIProxyAPI/Plugins-Store/main/registry.json
   configs:
     cpa-codex-controls:
       enabled: true
