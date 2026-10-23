@@ -6,7 +6,7 @@
       "name": "CPA Policy",
       "description": "账号并发限制、等待队列、Codex 请求时区覆盖、内容审计、错误事件与插件日志。",
       "author": "CLIProxyAPI (custom fork of Hao Wang)",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "repository": "https://github.com/CLIProxyAPI/cpa-policy",
       "license": "MIT; includes Apache-2.0 adaptations",
       "tags": [
@@ -21,23 +21,23 @@
           {
             "goos": "linux",
             "goarch": "amd64",
-            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.3/cpa-codex-controls_1.4.3_linux_amd64.zip",
-            "sha256": "fb283326b24eedc0f8337b602fd23192c7aa31647296473f523a6bf1c002977e",
-            "size": 4128006
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.4/cpa-codex-controls_1.4.4_linux_amd64.zip",
+            "sha256": "e050d1f70ae828e23023bcca133c4580698c98434f0dee2028848aa9a2234efc",
+            "size": 4127961
           },
           {
             "goos": "linux",
             "goarch": "arm64",
-            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.3/cpa-codex-controls_1.4.3_linux_arm64.zip",
-            "sha256": "b770a48d0a1a3dca7a1b3ae588a916140d827ed05bcf115fe58b2820f4ede776",
-            "size": 3839987
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.4/cpa-codex-controls_1.4.4_linux_arm64.zip",
+            "sha256": "223a0844ad999e52ac97b54cbbef12f5139ca611c9c62a00435dbf4d2b81e567",
+            "size": 3838129
           },
           {
             "goos": "darwin",
             "goarch": "arm64",
-            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.3/cpa-codex-controls_1.4.3_darwin_arm64.zip",
-            "sha256": "8dbc260f6daeefc8f758a815ba8d5f53f6d003ad3bb8fd4f3e6c4dea28f61e24",
-            "size": 3940183
+            "url": "https://github.com/CLIProxyAPI/cpa-policy/releases/download/v1.4.4/cpa-codex-controls_1.4.4_darwin_arm64.zip",
+            "sha256": "0c7a3f3d07e17aefbd21f03a8aa3e705d35787b51b2fdb70ebef5655e10626ca",
+            "size": 3940049
           }
         ]
       }
