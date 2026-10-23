@@ -7,3 +7,5 @@ plugins:
   configs:
     cpa-codex-controls:
       enabled: true
+      # 同阶段数值越小越晚执行；其他插件须大于此值，不保证所有请求最终覆盖。
+      priority: -100
